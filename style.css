@@ -1,0 +1,101 @@
+:root {
+    --cor1: #584A47;
+    --cor2: #E5E4B5;
+    --cor3: #D9D9D9;
+    --cor4: #7F745F;
+    --cor5: #737373;
+  }
+
+@font-face {
+    font-family: Fonte-titulo;
+    src: url('Gagalin-Regular.otf') format('truetype'); /* Substitua pelo caminho correto e formato da sua fonte */
+}
+
+@font-face {
+    font-family: Fonte-sub-titulo;
+    src: url('Distillery\ Strong.otf') format('truetype'); /* Substitua pelo caminho correto e formato da sua fonte */
+}
+
+@font-face {
+    font-family: Fonte-3;
+    src: url('FontsFree-Net-MoonTime-Regular-1.ttf') format('truetype'); /* Substitua pelo caminho correto e formato da sua fonte */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 82vh;
+    background-color: var(--cor2)
+}
+
+header {
+    font-family: Fonte-titulo;
+    font-size: 2em;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    background-color: var(--cor3);
+}
+
+.titulos {
+    margin-top: 50px;
+    font-family: Fonte-sub-titulo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    height: 200px; /* Set a fixed height */
+}
+
+.titulos > h1 {
+    font-family: Fonte-sub-titulo;
+    font-size: 4em;
+}
+
+.titulos > h2 {
+    font-family: Fonte-3;
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ul {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+li {
+    margin: 10px;
+}
+
+.conteiner {
+    position: relative;
+}
+
+#bolo1 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+#bolo2 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 69%;
+    bottom: 40%;
+}
+
+
